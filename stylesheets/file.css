@@ -1,0 +1,349 @@
+/* line 1, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  border: 1px solid #F9F9F9;
+  width: 100%;
+  z-index: 1;
+}
+
+/* line 13, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+.header .logo {
+  height: 50px;
+}
+
+/* line 17, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main {
+  margin-bottom: 100px;
+}
+
+/* line 19, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .cover_content {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+/* line 23, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .cover_content .cover {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  background-color: #eb5953;
+  /*
+      .imagen1{
+        background-image: url(../images/portada1.jpg);
+        width: 500px;
+        height: 600px;
+        background-size: auto;
+
+      }
+
+      .cover1{
+        display: inline;
+        height: 600px;
+      }
+
+    }
+    .cover:hover{
+      .cover1{
+        display: none;
+      }
+      .cover2{
+        display: inline;
+        height: 600px;
+      }*/
+}
+
+/* line 28, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .cover_content .cover img {
+  width: 800px;
+  height: 400px;
+}
+
+/* line 55, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .cover_content .cover .cover2 {
+  display: none;
+}
+
+/* line 61, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .proyects_content .proyects_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* line 66, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .proyects_content .proyects_title .type {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 18px;
+  color: #9B9B9B;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+/* line 73, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .proyects_content .proyects_title .subtitle {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 25px;
+  color: #4A4A4A;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+/* line 82, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  height: 1300px;
+}
+
+/* line 90, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .cards .card .image1 {
+  background-image: url("../images/proyect1.png");
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+  margin-left: 24px;
+}
+
+/* line 98, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .cards .card .image2 {
+  background-image: url("../images/proyect2.png");
+  background-size: cover;
+  height: 600px;
+  width: 400px;
+  margin-left: 24px;
+}
+
+/* line 106, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .cards .card .image3 {
+  background-image: url("../images/proyect2.png");
+  background-size: cover;
+  height: 600px;
+  width: 400px;
+  margin-left: 24px;
+}
+
+/* line 114, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .cards .card .image4 {
+  background-image: url("../images/proyect1.png");
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+  margin-left: 24px;
+}
+
+/* line 122, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .cards .card .image {
+  background-color: #3e5ec7;
+}
+
+/* line 125, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .cards .card .image:hover {
+  background-color: #eb5953;
+}
+
+/* line 129, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .cards .card .info_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* line 134, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .cards .card .info_card .name_card {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 18px;
+  color: #4A4A4A;
+  font-weight: 700;
+  margin: 20px 0px 5px;
+}
+
+/* line 141, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .cards .card .info_card .description_card {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 15px;
+  color: #9B9B9B;
+  font-weight: 400;
+  margin: 0px 0px 50px;
+}
+
+/* line 153, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .about .proyects_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 157, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .about .proyects_title .type {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 18px;
+  color: #9B9B9B;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+/* line 164, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .about .proyects_title .subtitle {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 25px;
+  color: #4A4A4A;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+/* line 173, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .about_content {
+  display: flex;
+  margin: 0;
+  width: 90%;
+}
+
+/* line 178, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .about_content .personal .background_box {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 100px;
+  background-color: #eb5953;
+}
+
+/* line 186, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .about_content .personal .image_personal {
+  position: absolute;
+  margin-left: 150px;
+  margin-top: -250px;
+  width: 300px;
+}
+
+/* line 191, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .about_content .personal .image_personal img {
+  width: 100%;
+}
+
+/* line 196, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .about_content .info {
+  margin: 150px 0px 100px 150px;
+}
+
+/* line 198, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .about_content .info .name {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 25px;
+  color: #4A4A4A;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* line 205, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .about_content .info .info_text {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 20px;
+  color: #4A4A4A;
+  font-weight: 400;
+}
+
+/* line 214, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .contact .proyects_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* line 219, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .contact .proyects_title .type {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 18px;
+  color: #9B9B9B;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+/* line 226, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .contact .proyects_title .subtitle {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 25px;
+  color: #4A4A4A;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+/* line 234, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .contact .redes {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 237, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .contact .redes span.minilogo {
+  margin: 0 25px;
+}
+
+/* line 239, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .contact .redes span.minilogo img {
+  width: 50px;
+}
+
+/* line 244, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .contact .mail {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 247, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+main .contact .mail p {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 18px;
+  color: #4A4A4A;
+  font-weight: 400;
+  margin: 40px 0 0px;
+}
+
+/* line 258, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+footer {
+  height: 150px;
+  background-color: #FA5851;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 265, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+footer .footer_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 270, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+footer .footer_content img {
+  width: 200px;
+  margin: 20px 0 20px;
+}
+
+/* line 274, /Users/macaramirez/Documents/portfolio/Maca_portfolio/scss/file.scss */
+footer .footer_content span {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 15px;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 20px 0 40px;
+}
+
+/*# sourceMappingURL=../stylesheets/file.map */
