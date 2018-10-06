@@ -462,7 +462,12 @@ body{
             }
           }
           .cards{
-            height: 2100px;
+            height: 2300px;
+            .image1{
+              height: 450px;
+              width: 300px;
+              background-position: center;
+            }
             .image1{
               margin: 0;
             }
