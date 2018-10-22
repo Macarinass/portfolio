@@ -92,7 +92,7 @@ body{
 
       .card{
         .image1{
-          background-image: url("../images/proyect1112.png");
+          background-image: url("../images/proyect111.png");
           background-size: cover;
           height: 400px;
           width: 400px;
@@ -430,7 +430,7 @@ body{
     width: 100%;
   }
 }
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 680px) and (min-width: 0px) {
   html{
     width: 100%;
     body{
@@ -462,7 +462,12 @@ body{
             }
           }
           .cards{
-            height: 2024px;
+            height: 2300px;
+            .image1{
+              height: 450px;
+              width: 300px;
+              background-position: center;
+            }
             .image1{
               margin: 0;
             }
@@ -475,6 +480,18 @@ body{
             .image4{
               margin: 0;
             }
+            .image_card1{
+              background-color:  #FAC751;
+            }
+            .image_card2{
+              background-color:  #5177FA  ;
+            }
+            .image_card3{
+              background-color:  #0dbcd5;
+            }
+            .image_card4{
+              background-color:  #eb5953;
+            }
           }
         }
 
@@ -483,7 +500,8 @@ body{
             margin-left: -110px;
             margin-bottom: -100px;
             .background_box{
-              margin: 75px 0px 45px 120px;
+              margin: 95px 0px 45px 120px;
+              background-color: #3B3B47;
             }
             .image_personal{
               position: relative;
